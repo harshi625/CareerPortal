@@ -1,0 +1,222 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.menu-bar {
+  background-color: peachpuff;
+  font-family: "Times New Roman", Times, serif;
+}
+.nav-link {
+  font-size: 16px;
+  color: purple !important;
+  margin: 3px;
+}
+.navbar-nav {
+  text-align: right;
+}
+.menu-bar navbar-toggler {
+  padding-right: 0;
+  outline: none;
+  border: none;
+}
+.banner {
+  height: 80vh;
+  background-image: url(img/network2.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.banner h1 {
+  padding: 170px;
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 6px;
+  font-weight: 600;
+  text-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+.search-job {
+  padding: 30px;
+  margin: -50px 6% 50px;
+  background-color: rgb(66, 90, 120);
+}
+.search-job .form-control {
+  max-width: 250px;
+  display: inline-flex;
+  margin: 10px 5px;
+  border-radius: 0;
+  box-shadow: none !important;
+  border: none !important;
+}
+.search-job .btn-primary {
+  border-radius: 0;
+  box-shadow: none !important;
+  border: none;
+  display: inline-flex;
+  margin: 5px;
+  padding: 5px 28px;
+}
+/*...........top companies...........*/
+#companies {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+#companies h3 {
+  text-align: center;
+  padding-bottom: 40px;
+}
+#companies img {
+  max-width: 150px;
+  margin: 10px;
+}
+
+.sec1out {
+  width: 100%;
+  height: 800px;
+  flex-wrap: wrap;
+}
+.in {
+  padding: 30px;
+  width: 250px;
+  text-align: center;
+  border-radius: 16px;
+  box-shadow: 0px 3px 7px black;
+  transition: 1s;
+}
+.in:hover {
+  transform: scale(1.1);
+}
+
+.mid {
+  height: 150px;
+}
+.mid h1 {
+  font-size: 60px;
+  color: rgb(136, 87, 30);
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  transition: 2s;
+}
+.outside {
+  width: 100%;
+  height: 600px;
+  background-image: url(/img/job.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.le,
+.ri {
+  width: 45%;
+  font-size: 28px;
+}
+.le img {
+  width: 200px;
+  height: 150px;
+}
+.ri {
+  color: pink;
+}
+.center {
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.blur {
+  width: 100%;
+  height: 600px;
+  backdrop-filter: blur(10px);
+  /* backdrop-filter: invert(102%); */
+}
+.company-details {
+  box-shadow: 0 2px 70px 0 rgba(110, 130, 208, 0.18);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 50px;
+}
+.job-update {
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.job-update .fa {
+  margin-top: 5px;
+  margin-right: 10px;
+  color: #77d1b1;
+}
+.job-update a {
+  text-decoration: none !important;
+  color: #08205f;
+  float: right;
+}
+.apply-btn {
+  height: 40px;
+  background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+  padding: 7px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.apply-btn .btn-primary {
+  padding: 0 30px;
+  float: right;
+  border-radius: 0;
+  box-shadow: none !important;
+  background: transparent;
+  border: 1px solid #fff;
+}
+.page-link li {
+  height: 25px;
+  width: 25px;
+  list-style: none;
+  display: inline-block;
+  cursor: pointer;
+}
+.pagelink li:hover,
+.active {
+  color: #fff;
+  background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+}
+.left-arrow {
+  color: #29b929;
+}
+#site-stats h3 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.stats-box {
+  padding: 30px;
+  border-radius: 10px;
+  margin: 20px 0;
+  box-shadow: 0 2px 40px 0 rgba(110, 130, 208, 0.18);
+}
+.stats-box .fa {
+  font-size: 30px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#app-banner {
+  background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+  padding: 50px 0;
+}
+#app-banner h1 {
+  margin-top: 20px;
+  color: #fff;
+}
+#app-banner img {
+  width: 200px;
+  margin: 50px 0;
+}
+
+#footer {
+  background: #f8f9fd;
+  padding: 20px 10px 8px;
+}
+.footer-image {
+  margin: 30px 0;
+  height: 40px;
+}
+#footer p {
+  color: #333;
+}
+#footer a img {
+  width: 50px;
+}
